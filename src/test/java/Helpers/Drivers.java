@@ -11,15 +11,10 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 
 public class Drivers {
 	
-	public WebDriver GetDriver(DesiredCapabilities capabilities) throws IOException
+	public WebDriver GetDriver(DesiredCapabilities capabilities, String grid) throws IOException
 	{
 		
-		Properties prop=new Properties();
-		FileInputStream dataFile=new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\java\\Helpers\\data.properties");
-		prop.load(dataFile);
-	
-		WebDriver driver=new RemoteWebDriver(new URL(prop.getProperty("Grid")),capabilities);
-		
+		WebDriver driver=new RemoteWebDriver(new URL(grid),capabilities);
 		return driver;
 	}
 }

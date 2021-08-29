@@ -35,9 +35,9 @@ public class LTNavigationBasicTest {
 	public JavascriptExecutor js;
 	public Capabilities cap;
 	
-	@Parameters({"URLLandingPage","CompleteCapabilties"})
+	@Parameters({"URLLandingPage","CompleteCapabilties","Grid"})
 	@BeforeTest
-	public void Test_Init(String url,String completeCapabilties) throws IOException
+	public void Test_Init(String url,String completeCapabilties, String grid) throws IOException
 	{
 		this.urlSUT=url;
 		
@@ -49,7 +49,7 @@ public class LTNavigationBasicTest {
 		 mapCapbilities=this.cap.CapabiltiesMap(completeCapabilties);
 		this.platform=mapCapbilities.get("platform");
 		
-		this.driver=drive.GetDriver(cap.SetCapabilities(mapCapbilities));
+		this.driver=drive.GetDriver(cap.SetCapabilities(mapCapbilities),grid);
 		
 		driver.manage().window().maximize();
 		
