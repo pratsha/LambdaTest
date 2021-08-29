@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-LambdaTestSuite" class="navigator-link">
+              <span class="suite-name border-passed">LambdaTestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-LambdaTestSuite" class="navigator-link ">
+                    <span>D:\LambdaTest\LambdaTest\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-LambdaTestSuite" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-LambdaTestSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-LambdaTestSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-LambdaTestSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-LambdaTestSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-LambdaTestSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-LambdaTestSuite" class="hide-methods passed suite-LambdaTestSuite"> (hide)</a> <!-- hide-methods passed suite-LambdaTestSuite -->
+                      <a href="#" panel-name="suite-LambdaTestSuite" class="show-methods passed suite-LambdaTestSuite"> (show)</a> <!-- show-methods passed suite-LambdaTestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-LambdaTestSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LambdaTestSuite" title="LambdaTest.LambdaTest.LTNavigationBasicTest" class="method navigator-link" hash-for-method="Click_On_Community_VerifyTitle">Click_On_Community_VerifyTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LambdaTestSuite" title="LambdaTest.LambdaTest.LTNavigationBasicTest" class="method navigator-link" hash-for-method="Click_On_Community_VerifyTitle">Click_On_Community_VerifyTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LambdaTestSuite" title="LambdaTest.LambdaTest.LTNavigationBasicTest" class="method navigator-link" hash-for-method="Click_On_LearnMore_VerifyTitle">Click_On_LearnMore_VerifyTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LambdaTestSuite" title="LambdaTest.LambdaTest.LTNavigationBasicTest" class="method navigator-link" hash-for-method="Click_On_LearnMore_VerifyTitle">Click_On_LearnMore_VerifyTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LambdaTestSuite" title="LambdaTest.LambdaTest.LTNavigationBasicTest" class="method navigator-link" hash-for-method="LoadPage_VerifyPageIsLoaded">LoadPage_VerifyPageIsLoaded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LambdaTestSuite" title="LambdaTest.LambdaTest.LTNavigationBasicTest" class="method navigator-link" hash-for-method="LoadPage_VerifyPageIsLoaded">LoadPage_VerifyPageIsLoaded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LambdaTestSuite" title="LambdaTest.LambdaTest.LTNavigationBasicTest" class="method navigator-link" hash-for-method="Navigate_To_Blog">Navigate_To_Blog</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LambdaTestSuite" title="LambdaTest.LambdaTest.LTNavigationBasicTest" class="method navigator-link" hash-for-method="Navigate_To_Blog">Navigate_To_Blog</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LambdaTestSuite" title="LambdaTest.LambdaTest.LTNavigationBasicTest" class="method navigator-link" hash-for-method="Scroll_To_CodeLess_VerifySelected">Scroll_To_CodeLess_VerifySelected</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LambdaTestSuite" title="LambdaTest.LambdaTest.LTNavigationBasicTest" class="method navigator-link" hash-for-method="Scroll_To_CodeLess_VerifySelected">Scroll_To_CodeLess_VerifySelected</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LambdaTestSuite" title="LambdaTest.LambdaTest.LTNavigationBasicTest" class="method navigator-link" hash-for-method="Scroll_To_SeeAllIntegration_VerifyURL">Scroll_To_SeeAllIntegration_VerifyURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LambdaTestSuite" title="LambdaTest.LambdaTest.LTNavigationBasicTest" class="method navigator-link" hash-for-method="Scroll_To_SeeAllIntegration_VerifyURL">Scroll_To_SeeAllIntegration_VerifyURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-LambdaTestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-LambdaTestSuite" class="panel LambdaTestSuite">
+          <div class="suite-LambdaTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">LambdaTest.LambdaTest.LTNavigationBasicTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Click_On_Community_VerifyTitle">
+                  </a> <!-- Click_On_Community_VerifyTitle -->
+                  <span class="method-name">Click_On_Community_VerifyTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Click_On_Community_VerifyTitle">
+                  </a> <!-- Click_On_Community_VerifyTitle -->
+                  <span class="method-name">Click_On_Community_VerifyTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Click_On_LearnMore_VerifyTitle">
+                  </a> <!-- Click_On_LearnMore_VerifyTitle -->
+                  <span class="method-name">Click_On_LearnMore_VerifyTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Click_On_LearnMore_VerifyTitle">
+                  </a> <!-- Click_On_LearnMore_VerifyTitle -->
+                  <span class="method-name">Click_On_LearnMore_VerifyTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoadPage_VerifyPageIsLoaded">
+                  </a> <!-- LoadPage_VerifyPageIsLoaded -->
+                  <span class="method-name">LoadPage_VerifyPageIsLoaded</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoadPage_VerifyPageIsLoaded">
+                  </a> <!-- LoadPage_VerifyPageIsLoaded -->
+                  <span class="method-name">LoadPage_VerifyPageIsLoaded</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Navigate_To_Blog">
+                  </a> <!-- Navigate_To_Blog -->
+                  <span class="method-name">Navigate_To_Blog</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Navigate_To_Blog">
+                  </a> <!-- Navigate_To_Blog -->
+                  <span class="method-name">Navigate_To_Blog</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scroll_To_CodeLess_VerifySelected">
+                  </a> <!-- Scroll_To_CodeLess_VerifySelected -->
+                  <span class="method-name">Scroll_To_CodeLess_VerifySelected</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scroll_To_CodeLess_VerifySelected">
+                  </a> <!-- Scroll_To_CodeLess_VerifySelected -->
+                  <span class="method-name">Scroll_To_CodeLess_VerifySelected</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scroll_To_SeeAllIntegration_VerifyURL">
+                  </a> <!-- Scroll_To_SeeAllIntegration_VerifyURL -->
+                  <span class="method-name">Scroll_To_SeeAllIntegration_VerifyURL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scroll_To_SeeAllIntegration_VerifyURL">
+                  </a> <!-- Scroll_To_SeeAllIntegration_VerifyURL -->
+                  <span class="method-name">Scroll_To_SeeAllIntegration_VerifyURL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LambdaTestSuite-class-passed -->
+        </div> <!-- panel LambdaTestSuite -->
+        <div panel-name="test-xml-LambdaTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\LambdaTest\LambdaTest\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite configfailurepolicy=&quot;continue&quot; parallel=&quot;tests&quot; name=&quot;LambdaTestSuite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;parameter name=&quot;URLLandingPage&quot; value=&quot;https://www.lambdatest.com/&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Helpers.Listener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test time-out=&quot;20000&quot; thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Chrome&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;CompleteCapabilties&quot; value=&quot;build:LambdaTest 1.0,name:Navigation Basic,platform:Windows 10,browserName:Chrome,version:86.0,console:true,network:true,visual:true&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;LambdaTest.LambdaTest.LTNavigationBasicTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Chrome --&gt;
+  &lt;test time-out=&quot;20000&quot; thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;MicrosoftEdge&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;CompleteCapabilties&quot; value=&quot;build:LambdaTest 1.0,name:Navigation Basic,platform:macOS Sierra,browserName:MicrosoftEdge,version:87.0,console:true,network:true,visual:true&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;LambdaTest.LambdaTest.LTNavigationBasicTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MicrosoftEdge --&gt;
+&lt;/suite&gt; &lt;!-- LambdaTestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-LambdaTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for LambdaTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Chrome (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">MicrosoftEdge (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-LambdaTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for LambdaTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-LambdaTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for LambdaTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_LambdaTestSuite');
+function tableData_LambdaTestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Scroll_To_SeeAllIntegration_VerifyURL')
+data.setCell(0, 2, 'LambdaTest.LambdaTest.LTNavigationBasicTest')
+data.setCell(0, 3, 9351);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Click_On_Community_VerifyTitle')
+data.setCell(1, 2, 'LambdaTest.LambdaTest.LTNavigationBasicTest')
+data.setCell(1, 3, 8975);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'LoadPage_VerifyPageIsLoaded')
+data.setCell(2, 2, 'LambdaTest.LambdaTest.LTNavigationBasicTest')
+data.setCell(2, 3, 8960);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Click_On_Community_VerifyTitle')
+data.setCell(3, 2, 'LambdaTest.LambdaTest.LTNavigationBasicTest')
+data.setCell(3, 3, 8411);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Scroll_To_SeeAllIntegration_VerifyURL')
+data.setCell(4, 2, 'LambdaTest.LambdaTest.LTNavigationBasicTest')
+data.setCell(4, 3, 6479);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Navigate_To_Blog')
+data.setCell(5, 2, 'LambdaTest.LambdaTest.LTNavigationBasicTest')
+data.setCell(5, 3, 5465);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'LoadPage_VerifyPageIsLoaded')
+data.setCell(6, 2, 'LambdaTest.LambdaTest.LTNavigationBasicTest')
+data.setCell(6, 3, 4363);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Scroll_To_CodeLess_VerifySelected')
+data.setCell(7, 2, 'LambdaTest.LambdaTest.LTNavigationBasicTest')
+data.setCell(7, 3, 4123);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Scroll_To_CodeLess_VerifySelected')
+data.setCell(8, 2, 'LambdaTest.LambdaTest.LTNavigationBasicTest')
+data.setCell(8, 3, 3919);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Click_On_LearnMore_VerifyTitle')
+data.setCell(9, 2, 'LambdaTest.LambdaTest.LTNavigationBasicTest')
+data.setCell(9, 3, 3786);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Navigate_To_Blog')
+data.setCell(10, 2, 'LambdaTest.LambdaTest.LTNavigationBasicTest')
+data.setCell(10, 3, 3768);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Click_On_LearnMore_VerifyTitle')
+data.setCell(11, 2, 'LambdaTest.LambdaTest.LTNavigationBasicTest')
+data.setCell(11, 3, 3289);
+window.suiteTableData['LambdaTestSuite']= { tableData: data, tableDiv: 'times-div-LambdaTestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 52 seconds</span>
+              <div id="times-div-LambdaTestSuite">
+              </div> <!-- times-div-LambdaTestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-LambdaTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for LambdaTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-LambdaTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-LambdaTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">LambdaTest.LambdaTest.LTNavigationBasicTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Test_Init(https://www.lambdatest.com/, build:LambdaTest 1.0,name:Navigation Basic,platform:Windows 10,browserN...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">Test_Init(https://www.lambdatest.com/, build:LambdaTest 1.0,name:Navigation Basic,platform:macOS Sierra,browse...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">LoadPage_VerifyPageIsLoaded</span>
+                <span class="method-start">8636 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoadPage_VerifyPageIsLoaded</span>
+                <span class="method-start">10801 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Scroll_To_SeeAllIntegration_VerifyURL</span>
+                <span class="method-start">13005 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Scroll_To_CodeLess_VerifySelected</span>
+                <span class="method-start">19485 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Scroll_To_SeeAllIntegration_VerifyURL</span>
+                <span class="method-start">19762 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Click_On_LearnMore_VerifyTitle</span>
+                <span class="method-start">23405 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Navigate_To_Blog</span>
+                <span class="method-start">26697 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Scroll_To_CodeLess_VerifySelected</span>
+                <span class="method-start">29114 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Click_On_Community_VerifyTitle</span>
+                <span class="method-start">30465 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Click_On_LearnMore_VerifyTitle</span>
+                <span class="method-start">33237 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Navigate_To_Blog</span>
+                <span class="method-start">37024 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">Test_CleanUp</span>
+                <span class="method-start">38878 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="test-method">
+                <span class="method-name">Click_On_Community_VerifyTitle</span>
+                <span class="method-start">42490 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">Test_CleanUp</span>
+                <span class="method-start">51465 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

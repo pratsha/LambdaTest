@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-29T18:23:33 IST" name="LambdaTestSuite" finished-at="2021-08-29T18:24:25 IST" duration-ms="52127">
+    <groups>
+    </groups>
+    <test started-at="2021-08-29T18:23:33 IST" name="Chrome" finished-at="2021-08-29T18:24:13 IST" duration-ms="39339">
+      <class name="LambdaTest.LambdaTest.LTNavigationBasicTest">
+        <test-method is-config="true" signature="Test_Init(java.lang.String,java.lang.String)[pri:0, instance:LambdaTest.LambdaTest.LTNavigationBasicTest@482bce4f]" started-at="2021-08-29T18:23:33 IST" name="Test_Init" finished-at="2021-08-29T18:23:42 IST" duration-ms="8623" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.lambdatest.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[build:LambdaTest 1.0,name:Navigation Basic,platform:Windows 10,browserName:Chrome,version:86.0,console:true,network:true,visual:true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Init -->
+        <test-method signature="LoadPage_VerifyPageIsLoaded()[pri:0, instance:LambdaTest.LambdaTest.LTNavigationBasicTest@482bce4f]" started-at="2021-08-29T18:23:42 IST" name="LoadPage_VerifyPageIsLoaded" finished-at="2021-08-29T18:23:46 IST" duration-ms="4363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoadPage_VerifyPageIsLoaded -->
+        <test-method signature="Scroll_To_SeeAllIntegration_VerifyURL()[pri:0, instance:LambdaTest.LambdaTest.LTNavigationBasicTest@482bce4f]" started-at="2021-08-29T18:23:46 IST" name="Scroll_To_SeeAllIntegration_VerifyURL" finished-at="2021-08-29T18:23:53 IST" depends-on-methods="LambdaTest.LambdaTest.LTNavigationBasicTest.LoadPage_VerifyPageIsLoaded" duration-ms="6479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scroll_To_SeeAllIntegration_VerifyURL -->
+        <test-method signature="Scroll_To_CodeLess_VerifySelected()[pri:0, instance:LambdaTest.LambdaTest.LTNavigationBasicTest@482bce4f]" started-at="2021-08-29T18:23:53 IST" name="Scroll_To_CodeLess_VerifySelected" finished-at="2021-08-29T18:23:57 IST" depends-on-methods="LambdaTest.LambdaTest.LTNavigationBasicTest.Scroll_To_SeeAllIntegration_VerifyURL" duration-ms="3919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scroll_To_CodeLess_VerifySelected -->
+        <test-method signature="Click_On_LearnMore_VerifyTitle()[pri:0, instance:LambdaTest.LambdaTest.LTNavigationBasicTest@482bce4f]" started-at="2021-08-29T18:23:57 IST" name="Click_On_LearnMore_VerifyTitle" finished-at="2021-08-29T18:24:00 IST" depends-on-methods="LambdaTest.LambdaTest.LTNavigationBasicTest.Scroll_To_CodeLess_VerifySelected" duration-ms="3289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_On_LearnMore_VerifyTitle -->
+        <test-method signature="Navigate_To_Blog()[pri:0, instance:LambdaTest.LambdaTest.LTNavigationBasicTest@482bce4f]" started-at="2021-08-29T18:24:00 IST" name="Navigate_To_Blog" finished-at="2021-08-29T18:24:04 IST" depends-on-methods="LambdaTest.LambdaTest.LTNavigationBasicTest.Click_On_LearnMore_VerifyTitle" duration-ms="3768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Navigate_To_Blog -->
+        <test-method signature="Click_On_Community_VerifyTitle()[pri:0, instance:LambdaTest.LambdaTest.LTNavigationBasicTest@482bce4f]" started-at="2021-08-29T18:24:04 IST" name="Click_On_Community_VerifyTitle" finished-at="2021-08-29T18:24:12 IST" depends-on-methods="LambdaTest.LambdaTest.LTNavigationBasicTest.Navigate_To_Blog" duration-ms="8411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_On_Community_VerifyTitle -->
+        <test-method is-config="true" signature="Test_CleanUp()[pri:0, instance:LambdaTest.LambdaTest.LTNavigationBasicTest@482bce4f]" started-at="2021-08-29T18:24:12 IST" name="Test_CleanUp" finished-at="2021-08-29T18:24:13 IST" duration-ms="457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_CleanUp -->
+      </class> <!-- LambdaTest.LambdaTest.LTNavigationBasicTest -->
+    </test> <!-- Chrome -->
+    <test started-at="2021-08-29T18:23:33 IST" name="MicrosoftEdge" finished-at="2021-08-29T18:24:25 IST" duration-ms="52127">
+      <class name="LambdaTest.LambdaTest.LTNavigationBasicTest">
+        <test-method is-config="true" signature="Test_Init(java.lang.String,java.lang.String)[pri:0, instance:LambdaTest.LambdaTest.LTNavigationBasicTest@223aa2f7]" started-at="2021-08-29T18:23:33 IST" name="Test_Init" finished-at="2021-08-29T18:23:44 IST" duration-ms="10801" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.lambdatest.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[build:LambdaTest 1.0,name:Navigation Basic,platform:macOS Sierra,browserName:MicrosoftEdge,version:87.0,console:true,network:true,visual:true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Init -->
+        <test-method signature="LoadPage_VerifyPageIsLoaded()[pri:0, instance:LambdaTest.LambdaTest.LTNavigationBasicTest@223aa2f7]" started-at="2021-08-29T18:23:44 IST" name="LoadPage_VerifyPageIsLoaded" finished-at="2021-08-29T18:23:53 IST" duration-ms="8960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoadPage_VerifyPageIsLoaded -->
+        <test-method signature="Scroll_To_SeeAllIntegration_VerifyURL()[pri:0, instance:LambdaTest.LambdaTest.LTNavigationBasicTest@223aa2f7]" started-at="2021-08-29T18:23:53 IST" name="Scroll_To_SeeAllIntegration_VerifyURL" finished-at="2021-08-29T18:24:02 IST" depends-on-methods="LambdaTest.LambdaTest.LTNavigationBasicTest.LoadPage_VerifyPageIsLoaded" duration-ms="9351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scroll_To_SeeAllIntegration_VerifyURL -->
+        <test-method signature="Scroll_To_CodeLess_VerifySelected()[pri:0, instance:LambdaTest.LambdaTest.LTNavigationBasicTest@223aa2f7]" started-at="2021-08-29T18:24:02 IST" name="Scroll_To_CodeLess_VerifySelected" finished-at="2021-08-29T18:24:06 IST" depends-on-methods="LambdaTest.LambdaTest.LTNavigationBasicTest.Scroll_To_SeeAllIntegration_VerifyURL" duration-ms="4123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scroll_To_CodeLess_VerifySelected -->
+        <test-method signature="Click_On_LearnMore_VerifyTitle()[pri:0, instance:LambdaTest.LambdaTest.LTNavigationBasicTest@223aa2f7]" started-at="2021-08-29T18:24:06 IST" name="Click_On_LearnMore_VerifyTitle" finished-at="2021-08-29T18:24:10 IST" depends-on-methods="LambdaTest.LambdaTest.LTNavigationBasicTest.Scroll_To_CodeLess_VerifySelected" duration-ms="3786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_On_LearnMore_VerifyTitle -->
+        <test-method signature="Navigate_To_Blog()[pri:0, instance:LambdaTest.LambdaTest.LTNavigationBasicTest@223aa2f7]" started-at="2021-08-29T18:24:10 IST" name="Navigate_To_Blog" finished-at="2021-08-29T18:24:16 IST" depends-on-methods="LambdaTest.LambdaTest.LTNavigationBasicTest.Click_On_LearnMore_VerifyTitle" duration-ms="5465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Navigate_To_Blog -->
+        <test-method signature="Click_On_Community_VerifyTitle()[pri:0, instance:LambdaTest.LambdaTest.LTNavigationBasicTest@223aa2f7]" started-at="2021-08-29T18:24:16 IST" name="Click_On_Community_VerifyTitle" finished-at="2021-08-29T18:24:25 IST" depends-on-methods="LambdaTest.LambdaTest.LTNavigationBasicTest.Navigate_To_Blog" duration-ms="8975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_On_Community_VerifyTitle -->
+        <test-method is-config="true" signature="Test_CleanUp()[pri:0, instance:LambdaTest.LambdaTest.LTNavigationBasicTest@223aa2f7]" started-at="2021-08-29T18:24:25 IST" name="Test_CleanUp" finished-at="2021-08-29T18:24:25 IST" duration-ms="657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_CleanUp -->
+      </class> <!-- LambdaTest.LambdaTest.LTNavigationBasicTest -->
+    </test> <!-- MicrosoftEdge -->
+  </suite> <!-- LambdaTestSuite -->
+</testng-results>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [LambdaTestSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="URLLandingPage" value="https://www.lambdatest.com/"/>
+  <listeners>
+    <listener class-name="Helpers.Listener"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="MicrosoftEdge(failed)" verbose="0">
+    <parameter name="CompleteCapabilties" value="build:LambdaTest 1.0,name:Navigation Basic,platform:macOS Sierra,browserName:MicrosoftEdge,version:87.0,console:true,network:true,visual:true"/>
+    <classes>
+      <class name="LambdaTest.LambdaTest.LTNavigationBasicTest">
+        <methods>
+          <include name="Click_On_LearnMore_VerifyTitle"/>
+          <include name="Test_Init"/>
+          <include name="Navigate_To_Blog"/>
+          <include name="LoadPage_VerifyPageIsLoaded"/>
+          <include name="Test_CleanUp"/>
+          <include name="Scroll_To_CodeLess_VerifySelected"/>
+          <include name="Scroll_To_SeeAllIntegration_VerifyURL"/>
+          <include name="Click_On_Community_VerifyTitle"/>
+        </methods>
+      </class> <!-- LambdaTest.LambdaTest.LTNavigationBasicTest -->
+    </classes>
+  </test> <!-- MicrosoftEdge(failed) -->
+  <test thread-count="5" parallel="tests" name="Chrome(failed)" verbose="0">
+    <parameter name="CompleteCapabilties" value="build:LambdaTest 1.0,name:Navigation Basic,platform:Windows 10,browserName:Chrome,version:86.0,console:true,network:true,visual:true"/>
+    <classes>
+      <class name="LambdaTest.LambdaTest.LTNavigationBasicTest">
+        <methods>
+          <include name="Click_On_LearnMore_VerifyTitle"/>
+          <include name="Test_Init"/>
+          <include name="Navigate_To_Blog"/>
+          <include name="LoadPage_VerifyPageIsLoaded"/>
+          <include name="Test_CleanUp"/>
+          <include name="Scroll_To_CodeLess_VerifySelected"/>
+          <include name="Scroll_To_SeeAllIntegration_VerifyURL"/>
+          <include name="Click_On_Community_VerifyTitle"/>
+        </methods>
+      </class> <!-- LambdaTest.LambdaTest.LTNavigationBasicTest -->
+    </classes>
+  </test> <!-- Chrome(failed) -->
+</suite> <!-- Failed suite [LambdaTestSuite] -->

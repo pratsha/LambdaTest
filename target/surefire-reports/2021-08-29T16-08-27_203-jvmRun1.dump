@@ -1,0 +1,28 @@
+# Created at 2021-08-29T16:08:27.851
+java.lang.VerifyError: Illegal type at constant pool entry 143 in class Helpers.Listener
+Exception Details:
+  Location:
+    Helpers/Listener.onStart(Lorg/testng/ITestContext;)V @2: invokespecial
+  Reason:
+    Constant pool index 143 is invalid
+  Bytecode:
+    0000000: 2a2b b700 8fb1                         
+
+	at java.base/java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredConstructors(Class.java:3305)
+	at java.base/java.lang.Class.getConstructor0(Class.java:3510)
+	at java.base/java.lang.Class.newInstance(Class.java:623)
+	at org.testng.internal.InstanceCreator.newInstance(InstanceCreator.java:30)
+	at org.testng.TestNG.addListeners(TestNG.java:964)
+	at org.testng.TestNG.initializeConfiguration(TestNG.java:924)
+	at org.testng.TestNG.initializeEverything(TestNG.java:1012)
+	at org.testng.TestNG.run(TestNG.java:1023)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+
+

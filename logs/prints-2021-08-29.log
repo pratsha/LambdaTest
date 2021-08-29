@@ -1,0 +1,5 @@
+18:24:00.415 [TestNG-tests-1] INFO  LTNavigationBasicTest - Success Test Method: Click_On_LearnMore_VerifyTitle
+18:24:02.834 [TestNG-tests-2] INFO  LTNavigationBasicTest - Success Test Method: Scroll_To_SeeAllIntegration_VerifyURL
+18:24:04.186 [TestNG-tests-1] INFO  LTNavigationBasicTest - Success Test Method: Navigate_To_Blog
+18:24:06.958 [TestNG-tests-2] INFO  LTNavigationBasicTest - Success Test Method: Scroll_To_CodeLess_VerifySelected
+18:24:10.744 [TestNG-tests-2] INFO  LTNavigationBasicTest - Success Test Method: Click_On_LearnMore_VerifyTitle

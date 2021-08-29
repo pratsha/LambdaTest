@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="LambdaTestSuite" parallel="tests" configfailurepolicy="continue">
+<listeners>
+	<listener class-name="Helpers.Listener"/>
+</listeners>
+<parameter name="URLLandingPage" value="https://www.lambdatest.com/"/>
+
+ <test  name="Chrome" time-out="20000">
+  <parameter name="CompleteCapabilties" value="build:LambdaTest 1.0,name:Navigation Basic,platform:Windows 10,browserName:Chrome,version:86.0,console:true,network:true,visual:true"/>
+    <classes>
+      <class name="LambdaTest.LambdaTest.LTNavigationBasicTest"/>
+    </classes>
+  </test> <!-- Chrome -->
+
+  
+<test name="MicrosoftEdge" time-out="20000">
+ <parameter name="CompleteCapabilties" value="build:LambdaTest 1.0,name:Navigation Basic,platform:macOS Sierra,browserName:MicrosoftEdge,version:87.0,console:true,network:true,visual:true"/>
+    <classes>
+      <class name="LambdaTest.LambdaTest.LTNavigationBasicTest"/>
+    </classes>
+  </test><!-- MicrosoftEdge -->
+</suite> <!-- LambdaTestSuite -->

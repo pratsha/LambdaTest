@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [LambdaTest.LambdaTest.LTNavigationBasicTest]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="LambdaTest.LambdaTest.LTNavigationBasicTest">
+        <methods>
+          <include name="Click_On_LearnMore_VerifyTitle"/>
+          <include name="Test_Init"/>
+          <include name="Navigate_To_Blog"/>
+          <include name="LoadPage_VerifyPageIsLoaded"/>
+          <include name="Test_CleanUp"/>
+          <include name="Scroll_To_CodeLess_VerifySelected"/>
+          <include name="Scroll_To_SeeAllIntegration_VerifyURL"/>
+          <include name="Click_On_Community_VerifyTitle"/>
+        </methods>
+      </class> <!-- LambdaTest.LambdaTest.LTNavigationBasicTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [LambdaTest.LambdaTest.LTNavigationBasicTest] -->

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="52.581" tests="12" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="d:\LambdaTest\LambdaTest\target\test-classes;d:\LambdaTest\LambdaTest\target\classes;C:\Users\z003b9eb\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\z003b9eb\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\z003b9eb\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\z003b9eb\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\z003b9eb\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\z003b9eb\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\z003b9eb\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\z003b9eb\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\z003b9eb\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\z003b9eb\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\z003b9eb\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\z003b9eb\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\z003b9eb\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\z003b9eb\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\z003b9eb\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\z003b9eb\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\z003b9eb\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\z003b9eb\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\z003b9eb\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\z003b9eb\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\z003b9eb\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\z003b9eb\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\z003b9eb\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\z003b9eb\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\z003b9eb\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\z003b9eb\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.10\bin"/>
+    <property name="sun.java.command" value="C:\Users\z003b9eb\AppData\Local\Temp\surefire1383009615843206831\surefirebooter3424733139414483203.jar C:\Users\z003b9eb\AppData\Local\Temp\surefire1383009615843206831 2021-08-29T18-23-32_519-jvmRun1 surefire15282704825492337274tmp surefire_0847613174669903945tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="d:\LambdaTest\LambdaTest\target\test-classes;d:\LambdaTest\LambdaTest\target\classes;C:\Users\z003b9eb\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\z003b9eb\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\z003b9eb\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\z003b9eb\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\z003b9eb\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\z003b9eb\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\z003b9eb\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\z003b9eb\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\z003b9eb\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\z003b9eb\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\z003b9eb\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\z003b9eb\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\z003b9eb\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\z003b9eb\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\z003b9eb\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\z003b9eb\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\z003b9eb\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\z003b9eb\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\z003b9eb\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\z003b9eb\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\z003b9eb\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\z003b9eb\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\z003b9eb\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\z003b9eb\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\z003b9eb\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\z003b9eb\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\z003b9eb"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.10"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="d:\LambdaTest\LambdaTest"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\z003b9eb\AppData\Local\Temp\surefire1383009615843206831\surefirebooter3424733139414483203.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.10+8-LTS-162"/>
+    <property name="user.name" value="z003b9eb"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\z003b9eb\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\z003b9eb\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.10"/>
+    <property name="user.dir" value="d:\LambdaTest\LambdaTest"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.10\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Zulu\zulu-8-jre\bin\;C:\Program Files\Zulu\zulu-8-jre\bin\;C:\Ruby30-x64\bin;C:\Python39\Scripts\;C:\Python39\;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\mpirt;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Files\fortran\bin\ia32;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files\IcedTeaWeb\WebStart\bin;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Users\z003b9eb\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft VS Code\bin;C:\bin;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;D:\eclipse\apache-maven-3.8.2\bin;C:\Program Files\Java\jdk-11.0.10\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\z003b9eb\AppData\Local\Microsoft\WindowsApps;C:\Users\z003b9eb\AppData\Roaming\npm;C:\Users\z003b9eb\AppData\Local\atom\bin;C:\Users\z003b9eb\.dotnet\tools;C:\Program Files\Azure Data Studio\bin;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.10+8-LTS-162"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="LoadPage_VerifyPageIsLoaded" classname="LambdaTest.LambdaTest.LTNavigationBasicTest" time="2.202">
+    <system-err><![CDATA[Aug 29, 2021 6:23:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 29, 2021 6:23:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="LoadPage_VerifyPageIsLoaded" classname="LambdaTest.LambdaTest.LTNavigationBasicTest" time="0.275"/>
+  <testcase name="Scroll_To_SeeAllIntegration_VerifyURL" classname="LambdaTest.LambdaTest.LTNavigationBasicTest" time="6.482">
+    <system-out><![CDATA[Window Handles: CDwindow-4AE0B5F6AE63E609C8552E4001E90F9C
+Window Handles: CDwindow-CF2A7BF003078C48A954A6A1114EA837
+https://www.lambdatest.com/integrations
+]]></system-out>
+  </testcase>
+  <testcase name="Scroll_To_SeeAllIntegration_VerifyURL" classname="LambdaTest.LambdaTest.LTNavigationBasicTest" time="2.419">
+    <system-out><![CDATA[Window Handles: CDwindow-51C04B897C1E63C52767277672FB69D0
+Window Handles: CDwindow-0251BC439775F0FABA24B904C07FD55E
+https://www.lambdatest.com/integrations
+]]></system-out>
+  </testcase>
+  <testcase name="Scroll_To_CodeLess_VerifySelected" classname="LambdaTest.LambdaTest.LTNavigationBasicTest" time="3.641"/>
+  <testcase name="Scroll_To_CodeLess_VerifySelected" classname="LambdaTest.LambdaTest.LTNavigationBasicTest" time="2.771"/>
+  <testcase name="Click_On_LearnMore_VerifyTitle" classname="LambdaTest.LambdaTest.LTNavigationBasicTest" time="3.293">
+    <system-out><![CDATA[Current Window Count: 1
+]]></system-out>
+  </testcase>
+  <testcase name="Click_On_LearnMore_VerifyTitle" classname="LambdaTest.LambdaTest.LTNavigationBasicTest" time="3.786">
+    <system-out><![CDATA[Current Window Count: 1
+]]></system-out>
+  </testcase>
+  <testcase name="Navigate_To_Blog" classname="LambdaTest.LambdaTest.LTNavigationBasicTest" time="1.348"/>
+  <testcase name="Navigate_To_Blog" classname="LambdaTest.LambdaTest.LTNavigationBasicTest" time="5.465"/>
+  <testcase name="Click_On_Community_VerifyTitle" classname="LambdaTest.LambdaTest.LTNavigationBasicTest" time="1.854"/>
+  <testcase name="Click_On_Community_VerifyTitle" classname="LambdaTest.LambdaTest.LTNavigationBasicTest" time="8.975"/>
+</testsuite>

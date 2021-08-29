@@ -1,0 +1,11 @@
+# Created at 2021-08-29T16:10:51.988
+Illegal type at constant pool entry 42 in class Helpers.Listener
+Exception Details:
+  Location:
+    Helpers/Listener.onStart(Lorg/testng/ITestContext;)V @2: invokespecial
+  Reason:
+    Constant pool index 42 is invalid
+  Bytecode:
+    0000000: 2a2b b700 2ab1                         
+
+
