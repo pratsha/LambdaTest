@@ -14,8 +14,8 @@ There is a single test class "LTNavigationBasicTest" since all the scenarios are
 
 Browser capabilities described in the document are being passed with the help testng.xml file(see Parameter with name="CompleteCapabilties").
 
-**To run this test project** , *testng.xml* should be **modified** to desired *grid url*.
-See Parameter with  **name="Grid"**
+**To run this test project** , *testng.xml* should be **modified** to get desired *grid url*.
+See Parameter with  **name="CompleteCapabilties"**
 
 Since all the tests are running with in a single class, **Parallel execution** is being achieved at test level **NOT** at class level.
 
