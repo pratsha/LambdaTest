@@ -1,6 +1,6 @@
 ### Introduction
 
-LambdaTest Project has been created for Selenium Advanced Certification.
+LambdaTest Project has been created for **LambdaTest Selenium Advanced Certification**.
 There are overall 14 Test Scenarios provided in the pdf document.
 
 This test project has been completed with the Help of Java, Selenium and Testng framework.
@@ -44,6 +44,3 @@ For **running** these **tests  in Gitpod dev enviorment** :
 2. type *mvn test*
 3. hit "Enter"
 
-Regards,
-
-Prateek Bhatnagar
