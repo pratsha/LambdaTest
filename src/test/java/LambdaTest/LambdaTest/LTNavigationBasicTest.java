@@ -41,7 +41,6 @@ public class LTNavigationBasicTest {
 	{
 		this.urlSUT=url;
 		
-		
 		this.cap=new Capabilities();
 		Drivers drive=new Drivers();
 		
@@ -49,8 +48,19 @@ public class LTNavigationBasicTest {
 		 mapCapbilities=this.cap.CapabiltiesMap(completeCapabilties);
 		this.platform=mapCapbilities.get("platform");
 		
-		this.driver=drive.GetDriver(cap.SetCapabilities(mapCapbilities),grid);
-		
+		if(mapCapbilities.get("browserName").equals("Chrome"))
+		{
+			this.driver=drive.GetDriver(cap.SetChromeOptionsCapabilities(mapCapbilities), grid);
+		}
+		else if(mapCapbilities.get("browserName").equals("MicrosoftEdge"))
+		{
+			this.driver=drive.GetDriver(cap.SetEdgeOptionsCapabilities(mapCapbilities), grid);
+		}
+		else
+		{
+			this.driver=drive.GetDriver(cap.SetCapabilities(mapCapbilities), grid);
+		}
+
 		driver.manage().window().maximize();
 		
 		this.landingPage=new LTLandingPagePO(driver,urlSUT);

@@ -5,9 +5,9 @@
 	<listener class-name="Helpers.Listener"/>
 </listeners>
 <parameter name="URLLandingPage" value="https://www.lambdatest.com/"/>
-<parameter name="Grid" value="https://prateekk.bhatnagar:PYlmHL451jsMzjaCyvqvhzFlNR0PDCZuiPUZ9ArM2C4I9sLsw2@hub.lambdatest.com/wd/hub"/>
+<parameter name="Grid" value="@hub.lambdatest.com/wd/hub"/>
  <test  name="Chrome" time-out="20000">
-  <parameter name="CompleteCapabilties" value="build:LambdaTest 1.0,name:Navigation Basic,platform:Windows 10,browserName:Chrome,version:86.0,console:true,network:true,visual:true"/>
+  <parameter name="CompleteCapabilties" value="user:bhatnagar.prateek,accessKey:jIwBwJ594i69d1krhjyBj1TXtZcNT27OTHMHrPKpvlKs9IAlsb,build:LambdaTest 1.0,name:Navigation Basic,platform:Windows 10,browserName:Chrome,version:86.0,console:true,network:true,visual:true"/>
     <classes>
       <class name="LambdaTest.LambdaTest.LTNavigationBasicTest"/>
     </classes>
@@ -15,7 +15,7 @@
 
   
 <test name="MicrosoftEdge" time-out="20000">
- <parameter name="CompleteCapabilties" value="build:LambdaTest 1.0,name:Navigation Basic,platform:macOS Sierra,browserName:MicrosoftEdge,version:87.0,console:true,network:true,visual:true"/>
+ <parameter name="CompleteCapabilties" value="user:bhatnagar.prateek,accessKey:jIwBwJ594i69d1krhjyBj1TXtZcNT27OTHMHrPKpvlKs9IAlsb,build:LambdaTest 1.0,name:Navigation Basic,platform:macOS Sierra,browserName:MicrosoftEdge,version:87.0,console:true,network:true,visual:true"/>
     <classes>
       <class name="LambdaTest.LambdaTest.LTNavigationBasicTest"/>
     </classes>

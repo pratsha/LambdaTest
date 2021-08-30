@@ -1,15 +1,10 @@
 package Helpers;
 
-import java.io.File;
-import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
@@ -40,22 +35,7 @@ public class Listener implements ITestListener {
 
 	@Override
 	public void onTestFailure(ITestResult result) {
-		
-		File src=null;
-		try {
-			driver=(WebDriver)result.getTestClass().getRealClass().getDeclaredField("driver").get(result.getInstance());
-			src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		} catch (Exception e1) {
-			
-			e1.printStackTrace();
-		}
-		try {
-			
-			FileUtils.copyFile(src,new File(System.getProperty("user.dir")+"test-output\\FailureScreenshots\\"+result.getName()+"_"+formatter.format(date)+".jpg"));
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+	
 		log.error("Failed Test Method: ", result.getName().toString());
 	}
 
